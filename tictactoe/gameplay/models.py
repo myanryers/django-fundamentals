@@ -21,4 +21,3 @@ class Move(models.Model):
     by_first_player = models.BooleanField()
 
     game = models.ForeignKey(Game, on_delete=models.CASCADE)
-        
